@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="SP18-BCS-091.JS"></script>
+    <link rel="stylesheet" href="SP18-BCS-091.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>JavaScript, Event handling, Bindings and DOM-LabTask</h1>
+    
+        
+        
+    <h3 class="ht1">List of persons</h3> 
+    <div class="Container">    
+    <div class="table1">
+        
+        <table id="mytable" border="1" width="50%">
+            
+            
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>Gender</td>
+                    <td>Age</td>
+                    <td>City</td>
+                    <td>Action</td>
+                </tr>
+            </tbody>
+        
+        </table>
+        <br/>
+    </div>
+       <h3 class="ht2">Add/Update person form</h3> 
+        <div class="table2">
+            <table>
+
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="Gender" id="Gender1" value="Male">Male
+                        <input type="radio" name="Gender" id="Gender2"value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="text" name="" id="age"></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>
+                        <select name="city1" id="city">
+                            <option value="Option">Select an option</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Islamabad">Islamabad</option>
+                            <option value="Peshawar">Peshawar</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <ul>
+            <!-- <li> -->
+            <button id="btnresets" type="button" value="Reset form" onclick="myfunction2()">Reset</button>
+            <button  id="btnadd" type="button"  onclick="myFunction()">Add</button>  
+            <button id="btnupdate" type="button">Update</button>
+            <!-- </li> -->
+         </ul><br/>
+       
+        </div>
+    </p>
+
+
+    
+</body>
+</html>

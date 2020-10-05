@@ -1,0 +1,43 @@
+.ht2{
+    position: absolute;
+    right: 150px;
+    top: 180px;
+    width: 300px;
+   
+}
+.ht1{
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    width: 300px;
+
+}
+.table1{
+    position: absolute;
+    left: 60px;
+    top: 230px;
+    width: 80%;
+    float: left;
+   
+    
+
+}
+.table2{
+    
+    
+    float: right;
+
+    position: absolute;
+    right: 180px;
+    top: 230px;
+    width: 20%;
+
+    line-height: 2.5;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightblue;
+
+}
+.container{
+    overflow: hidden;
+}
