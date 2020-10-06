@@ -11,7 +11,7 @@ function myFunction() {
     cell2.innerHTML = Gender1();
     cell3.innerHTML = document.getElementById("age").value;
     cell4.innerHTML = document.getElementById("city").value;
-    //cell5.innerHTML = <a href="home">Update</a>;
+    cell5.innerHTML = <button  id="update" type="button"  onclick="">Update</button> /<button  id="remove" type="button"  onclick="">Remove</button>
    
     document.getElementById("name"). value=""
     document.getElementById("Gender1").checked=false;
